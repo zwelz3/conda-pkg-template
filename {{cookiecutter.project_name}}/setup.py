@@ -31,4 +31,5 @@ setup(name='{{cookiecutter.project_name}}',
                    'Intended Audience :: Science/Research',
                    'Topic :: Scientific/Engineering',
                    'Topic :: Software Development :: Libraries :: Python Modules'],
-      entry_points={})
+      entry_points={},
+      zip_safe=False)
