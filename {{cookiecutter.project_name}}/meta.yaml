@@ -9,8 +9,7 @@ source:
   path: ./
 
 build:
-  script: python setup.py install --single-version-externally-managed
-  preserve_egg_dir: True
+  script: python setup.py install
 
 requirements:
   build:
