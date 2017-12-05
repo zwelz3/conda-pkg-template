@@ -12,6 +12,8 @@ requirements:
   build:
     - python
     - setuptools
+    - dill
+    - openmdao
     
   run:
     - python
