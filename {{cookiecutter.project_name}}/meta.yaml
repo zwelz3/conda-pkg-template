@@ -8,6 +8,9 @@ package:
 source:
   path: ./
 
+build:
+  noarch: generic  
+
 requirements:
   build:
     - python
